@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @M7MD234
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
+- 👋 Hi, I’m MOHAMMAD
+- 👀 I’m interested in coding
+- 🌱 I’m currently learning frontend developer, backend developer, wordpress theme developing, woocommerce theme developing
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me mz188646@gmail.com
 
