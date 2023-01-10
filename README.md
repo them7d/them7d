@@ -1,5 +1,4 @@
-- 👋 Hi, I’m MOHAMMAD
-- 👀 I’m interested in coding
+- Hi, I’m Mohammad
 - learning frontend developer
 - mz188646@gmail.com
 
