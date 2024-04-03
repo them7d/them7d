@@ -1,0 +1,3 @@
+.gradient-image:hover img {
+      @apply -translate-y-[calc(100%-450px)];
+}
