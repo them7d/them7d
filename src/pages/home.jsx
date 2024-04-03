@@ -5,9 +5,9 @@ function page() {
       return (
             <>
                   <section className="main relative  flex flex-col items-center">
-                        <div className="main_content max-w-xl mt-40">
+                        <div className="main_content max-w-xl mt-40 xs:p-7">
                               <div className="flex">
-                                    <div className="images rounded-full overflow-hidden">
+                                    <div className="images rounded-full h-fit overflow-hidden">
                                           <Image src="/images/avatar.jpg" width={100} height={100} alt="My Local Image" />
                                     </div>
                                     <div className="ml-10 flex flex-col justify-center">
@@ -19,7 +19,7 @@ function page() {
                                     Mohammad Zaid, a web developer with four years of experience based in Baghdad, Iraq, has a passion for creating awesome and fantastic websites and well-equipped to tackle complex web development projects and deliver high-quality results.
                               </p>
                         </div>
-                        <div className="socialmedia mt-12 flex justify-evenly w-full max-w-xl">
+                        <div className="socialmedia mt-12 flex flex-wrap justify-evenly w-full max-w-xl">
                               {/* <!-- Github --> */}
                               <a href="https://github.com/them7d" alt="github">
                                     <button
