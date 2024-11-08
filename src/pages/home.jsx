@@ -26,8 +26,8 @@ function page() {
                                           type="button"
                                           data-twe-ripple-init
                                           data-twe-ripple-color="light"
-                                          class="mb-2 inline-block rounded bg-[#333] px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                                          <span class="[&>svg]:h-4 [&>svg]:w-4">
+                                          className="mb-2 inline-block rounded bg-[#333] px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                                          <span className="[&>svg]:h-4 [&>svg]:w-4">
                                                 <svg
                                                       xmlns="http://www.w3.org/2000/svg"
                                                       fill="currentColor"
@@ -45,8 +45,8 @@ function page() {
                                           type="button"
                                           data-twe-ripple-init
                                           data-twe-ripple-color="light"
-                                          class="mb-2 inline-block rounded bg-[#c13584] px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                                          <span class="[&>svg]:h-4 [&>svg]:w-4">
+                                          className="mb-2 inline-block rounded bg-[#c13584] px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                                          <span className="[&>svg]:h-4 [&>svg]:w-4">
                                                 <svg
                                                       xmlns="http://www.w3.org/2000/svg"
                                                       fill="currentColor"
@@ -64,8 +64,8 @@ function page() {
                                           type="button"
                                           data-twe-ripple-init
                                           data-twe-ripple-color="light"
-                                          class="mb-2 inline-block rounded bg-[#0077b5] px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                                          <span class="[&>svg]:h-4 [&>svg]:w-4">
+                                          className="mb-2 inline-block rounded bg-[#0077b5] px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                                          <span className="[&>svg]:h-4 [&>svg]:w-4">
                                                 <svg
                                                       xmlns="http://www.w3.org/2000/svg"
                                                       fill="currentColor"
@@ -83,8 +83,8 @@ function page() {
                                           type="button"
                                           data-twe-ripple-init
                                           data-twe-ripple-color="light"
-                                          class="mb-2 inline-block rounded bg-[#fff] px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                                          <span class="[&>svg]:h-4 [&>svg]:w-4">
+                                          className="mb-2 inline-block rounded bg-[#fff] px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                                          <span className="[&>svg]:h-4 [&>svg]:w-4">
                                                 <svg viewBox="0 32 447.99999999999994 448" xmlns="http://www.w3.org/2000/svg">
                                                       <path d="M120.12 208.29c-3.88-2.9-7.77-4.35-11.65-4.35H91.03v104.47h17.45c3.88 0 7.77-1.45 11.65-4.35s5.82-7.25 5.82-13.06v-69.65c-.01-5.8-1.96-10.16-5.83-13.06zM404.1 32H43.9C19.7 32 .06 51.59 0 75.8v360.4C.06 460.41 19.7 480 43.9 480h360.2c24.21 0 43.84-19.59 43.9-43.8V75.8c-.06-24.21-19.7-43.8-43.9-43.8zM154.2 291.19c0 18.81-11.61 47.31-48.36 47.25h-46.4V172.98h47.38c35.44 0 47.36 28.46 47.37 47.28zm100.68-88.66H201.6v38.42h32.57v29.57H201.6v38.41h53.29v29.57h-62.18c-11.16.29-20.44-8.53-20.72-19.69V193.7c-.27-11.15 8.56-20.41 19.71-20.69h63.19zm103.64 115.29c-13.2 30.75-36.85 24.63-47.44 0l-38.53-144.8h32.57l29.71 113.72 29.57-113.72h32.58z" />
                                                 </svg>
@@ -97,18 +97,18 @@ function page() {
                                           type="button"
                                           data-twe-ripple-init
                                           data-twe-ripple-color="light"
-                                          class="mb-2 inline-block rounded bg-gradient-to-t from-[#E52030] to-[#F44F5A] px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                                          <span class="[&>svg]:h-4 [&>svg]:w-4">
+                                          className="mb-2 inline-block rounded bg-gradient-to-t from-[#E52030] to-[#F44F5A] px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                                          <span className="[&>svg]:h-4 [&>svg]:w-4">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" baseProfile="basic">
                                                       <linearGradient id="oMwB8FKdal_w2h6EGYqYCa" x1="20.395" x2="29.813" y1="1.634" y2="60.07" gradientUnits="userSpaceOnUse">
-                                                            <stop offset="0" stop-color="#f44f5a" />
-                                                            <stop offset=".443" stop-color="#ee3d4a" />
-                                                            <stop offset="1" stop-color="#e52030" />
+                                                            <stop offset="0" stopColor="#f44f5a" />
+                                                            <stop offset=".443" stopColor="#ee3d4a" />
+                                                            <stop offset="1" stopColor="#e52030" />
                                                       </linearGradient>
                                                       <path fill="url(#oMwB8FKdal_w2h6EGYqYCa)" d="M42,10.5v27c0,2.48-2.02,4.5-4.5,4.5h-27C8.02,42,6,39.98,6,37.5v-27C6,8.02,8.02,6,10.5,6h27	C39.98,6,42,8.02,42,10.5z" />
                                                       <linearGradient id="oMwB8FKdal_w2h6EGYqYCb" x1="20.961" x2="26.53" y1="1.513" y2="42.717" gradientUnits="userSpaceOnUse">
-                                                            <stop offset="0" stop-color="#4b4b4b" />
-                                                            <stop offset="1" stop-color="#252525" />
+                                                            <stop offset="0" stopColor="#4b4b4b" />
+                                                            <stop offset="1" stopColor="#252525" />
                                                       </linearGradient>
                                                       <path fill="url(#oMwB8FKdal_w2h6EGYqYCb)" d="M35.501,23.257c-0.034-0.062-0.08-0.116-0.116-0.177c0.804-1.675,0.832-3.817-0.09-5.6	c-1.1-2.251-3.596-3.837-6.188-3.812c-0.071-0.001-0.141,0.011-0.211,0.012c-1.049-1.533-2.89-2.628-4.894-2.722	c-2.499-0.173-5.121,1.196-6.395,3.453c-0.036,0.06-0.061,0.127-0.095,0.189c-1.852,0.142-3.721,1.188-4.804,2.878	c-1.399,2.078-1.525,5.033-0.207,7.265c0.034,0.062,0.08,0.116,0.116,0.177c-0.804,1.675-0.832,3.817,0.09,5.6	c1.1,2.251,3.596,3.837,6.188,3.812c0.071,0.001,0.141-0.011,0.211-0.012c1.049,1.533,2.89,2.628,4.894,2.722	c2.499,0.173,5.121-1.196,6.395-3.453c0.036-0.06,0.061-0.127,0.095-0.189c1.852-0.142,3.721-1.188,4.804-2.878	C36.693,28.444,36.819,25.489,35.501,23.257z M33.125,18.733c0.556,0.779,0.882,1.742,0.943,2.773	c-0.398-0.353-0.825-0.673-1.283-0.931c-1.132-0.59-2.422-0.914-3.681-0.825c-1.748,0.065-3.366,0.922-4.445,2.155	c-0.161-0.051-0.325-0.078-0.489-0.09c0.021-1.143,0.36-2.203,0.967-3.053c0.913-1.322,2.439-2.091,3.966-2.103	C30.653,16.622,32.171,17.411,33.125,18.733z M20.193,15.909c0.744-1.36,2.186-2.28,3.807-2.445c0.953-0.092,1.95,0.107,2.873,0.57	c-0.505,0.168-0.995,0.378-1.448,0.646c-1.077,0.685-2.003,1.64-2.555,2.775c-0.819,1.549-0.885,3.382-0.353,4.934	c-0.12,0.11-0.227,0.234-0.322,0.373c-0.981-0.59-1.73-1.414-2.163-2.366C19.343,18.943,19.44,17.238,20.193,15.909z M14.876,18.731	c0.397-0.871,1.067-1.635,1.93-2.203c-0.107,0.521-0.171,1.051-0.165,1.577c0.055,1.276,0.419,2.554,1.126,3.6	c0.931,1.483,2.484,2.456,4.093,2.773c0.036,0.162,0.085,0.321,0.157,0.471c-0.999,0.552-2.085,0.786-3.123,0.686	c-1.602-0.13-3.03-1.067-3.804-2.383C14.284,21.927,14.208,20.218,14.876,18.731z M14.875,29.267	c-0.556-0.779-0.882-1.742-0.943-2.773c0.398,0.353,0.825,0.673,1.283,0.931c1.132,0.59,2.422,0.914,3.681,0.825	c1.748-0.065,3.366-0.922,4.445-2.155c0.161,0.051,0.325,0.078,0.489,0.09c-0.021,1.143-0.36,2.203-0.967,3.053	c-0.913,1.322-2.439,2.091-3.966,2.103C17.347,31.378,15.829,30.589,14.875,29.267z M27.807,32.091	c-0.744,1.36-2.186,2.28-3.807,2.445c-0.953,0.092-1.95-0.107-2.873-0.57c0.505-0.168,0.995-0.378,1.448-0.646	c1.077-0.685,2.003-1.64,2.555-2.775c0.819-1.549,0.885-3.382,0.353-4.934c0.12-0.11,0.227-0.234,0.322-0.372	c0.981,0.59,1.73,1.414,2.163,2.366C28.657,29.057,28.56,30.762,27.807,32.091z M33.124,29.269c-0.397,0.871-1.067,1.635-1.93,2.203	c0.107-0.521,0.171-1.051,0.165-1.577c-0.055-1.275-0.419-2.554-1.126-3.6c-0.931-1.483-2.484-2.456-4.093-2.773	c-0.036-0.162-0.085-0.321-0.157-0.471c0.999-0.552,2.085-0.786,3.123-0.686c1.602,0.13,3.03,1.067,3.804,2.383	C33.716,26.073,33.792,27.782,33.124,29.269z" />
                                                 </svg>
@@ -161,7 +161,17 @@ function page() {
                                           <Image src="/images/landing-page-sunnyside.jpg" className="max-w-full h-auto transition-all ease-linear duration-700" width={800} height={350} alt="langing page"></Image>
                                     </a>
                               </div>
-                              <div className="rounded-lg hover:scale-[1.01] col-span-3 overflow-hidden max-h-[450px] relative cursor-pointer">
+                              <div className="gradient-image rounded-lg overflow-hidden col-span-2 max-h-[450px] relative cursor-pointer">
+                                    <a href="https://them7d.github.io/frontend-mentor/insure-landing-page/">
+                                          <div className="gradient_div absolute bottom-0 top-0 right-0 left-0 bg-gradient-to-b z-10 from-transparent via-transparent to-black hover:via-80%">
+                                                <div className="absolute bottom-5 left-5 text-lg">
+                                                      Landing Page
+                                                </div>
+                                          </div>
+                                          <Image src="/images/insurance-landing-page.jpg" className="max-w-full h-auto transition-all ease-linear duration-500 z-0" width={800} height={350} alt="langing page"></Image>
+                                    </a>
+                              </div>
+                              <div className="rounded-lg hover:scale-[1.01] col-start-2 col-span-3 overflow-hidden max-h-[450px] relative cursor-pointer">
                                     <a href="https://them7d.github.io/frontend-mentor/social-media-dashboard">
                                           <div className="gradient_div absolute bottom-0 top-0 right-0 left-0 bg-gradient-to-b z-10 from-transparent via-transparent to-black hover:via-80%">
                                                 <div className="absolute bottom-5 left-5 text-lg">
@@ -171,7 +181,7 @@ function page() {
                                           <Image src="/images/dashboard.png" className="max-w-full h-auto hover:scale-100 transition-all ease-linear duration-700 w-full" width={1920} height={350} alt="langing page"></Image>
                                     </a>
                               </div>
-                              <div className="rounded-lg hover:scale-[1.01] transition-all col-start-2 col-span-3 overflow-hidden max-h-[450px] relative cursor-pointer">
+                              <div className="rounded-lg hover:scale-[1.01] transition-all col-span-3 overflow-hidden max-h-[450px] relative cursor-pointer">
                                     <div className="gradient_div absolute bottom-0 top-0 right-0 left-0 bg-gradient-to-b z-10 from-transparent via-transparent to-black hover:via-80%">
                                           <div className="absolute bottom-5 left-5 text-lg">
                                                 testimonials slider

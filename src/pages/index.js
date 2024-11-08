@@ -1,4 +1,4 @@
-import { Inter } from '@next/font/google'
+import { Inter } from 'next/font/google'
 import { SparklesCore } from "../components/ui/sparkles.tsx";
 import Page from './home.jsx'
 const inter = Inter({ subsets: ['latin'] })
