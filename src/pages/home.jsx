@@ -182,12 +182,12 @@ function page() {
                                     </a>
                               </div>
                               <div className="rounded-lg hover:scale-[1.01] transition-all col-span-3 overflow-hidden max-h-[450px] relative cursor-pointer">
-                                    <div className="gradient_div absolute bottom-0 top-0 right-0 left-0 bg-gradient-to-b z-10 from-transparent via-transparent to-black hover:via-80%">
-                                          <div className="absolute bottom-5 left-5 text-lg">
-                                                testimonials slider
-                                          </div>
-                                    </div>
                                     <a href="https://them7d.github.io/frontend-mentor/coding-bootcamp-testimonials-slider">
+                                          <div className="gradient_div absolute bottom-0 top-0 right-0 left-0 bg-gradient-to-b z-10 from-transparent via-transparent to-black hover:via-80%">
+                                                <div className="absolute bottom-5 left-5 text-lg">
+                                                      testimonials slider
+                                                </div>
+                                          </div>
                                           <Image src="/images/testimonials.jpg" className="max-w-full h-auto transition-all ease-linear duration-700 w-full" width={1920} height={350} alt="langing page"></Image>
                                     </a>
                               </div>
