@@ -1,9 +1,18 @@
 import { SparklesCore } from "../components/ui/sparkles";
 import Image from 'next/image';
-
+import Head from "next/head";
 function page() {
       return (
             <>
+                  <Head>
+                        <title>Mohammad Zaid</title>
+                        <link rel="cononicalize" href="https://them7d.vercel.app" />
+                        <meta property="og:image" content="https://them7d.vercel.app/avatar.jpg" />
+                        <meta property="og:site_name" content="Mohammad Zaid" />
+                        <meta property="og:url" content="https://them7d.vercel.app/" />
+                        <meta name="description" content="Mohammad Zaid, web developer, full stack developer, web designer, 3d artist and programmer, m7d webdev, them7d" />
+                        <meta name="google-site-verification" content="k9Twbb-v-KMfgthw9NWFlVuJUKt3Eg96iac3gyJTUaE" />
+                  </Head>
                   <section className="main relative  flex flex-col items-center">
                         <div className="main_content max-w-xl mt-40 xs:p-7">
                               <div className="flex">
