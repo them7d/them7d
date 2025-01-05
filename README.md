@@ -1,5 +1,5 @@
 - Hi, I’m Mohammad
-- learning frontend developer
+- frontend developer
 - mz188646@gmail.com
 
 <!---
