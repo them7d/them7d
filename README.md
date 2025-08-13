@@ -1,3 +1,3 @@
 - Hi, I’m Mohammad
 - Web Developer - Frontend
-- mz188646@gmail.com
+- mohammadzaidreal@gmail.com
