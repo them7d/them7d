@@ -16,11 +16,7 @@ const PauseIcon = () => (
 function page() {
       const videoRef = useRef(null);
       const [isPlaying, setIsPlaying] = useState(true);
-    
-      useEffect(() => {
-        videoRef.current?.play();
-      }, []);
-    
+      const [isLoading, setIsLoading] = useState(true);
       const handleToggle = () => {
         const video = videoRef.current;
         if (!video) return;
@@ -32,6 +28,21 @@ function page() {
           setIsPlaying(false);
         }
       };
+      useEffect(() => {
+            videoRef.current?.play();
+
+            const handleReady = () => setIsLoading(false);
+            if (videoRef.current.readyState >= 2) {
+            handleReady();
+            } else {
+            videoRef.current.addEventListener("loadeddata", handleReady);
+            videoRef.current.addEventListener("canplay", handleReady);
+            }
+            return () => {
+            videoRef.current.removeEventListener("loadeddata", handleReady);
+            videoRef.current.removeEventListener("canplay", handleReady);
+            };
+      },[]);
       return (
             <>
                   <Head>
@@ -174,15 +185,22 @@ function page() {
                         </div>
                   </section>
                   <section className="">
-                        <div onClick={handleToggle} className="relative cursor-pointer max-w-[900px] md:mx-auto xs:mx-5 mt-24 " >
+                        <div onClick={handleToggle} className="relative cursor-pointer max-w-[900px] md:mx-auto xs:mx-5 mt-24 md:min-h-[450px]" >
+                        {isLoading && (
+                              <div className="absolute inset-0 flex items-center justify-center bg-black/30 backdrop-blur-sm z-10">
+                                    <div className="h-10 w-10 animate-spin rounded-full border-2 border-white/60 border-t-transparent" />
+                              </div>
+                        )}
                               <video
-                              className="rounded-xl shadow-[0_0_30px_rgba(255,255,255,0.35)]"
+                              className="w-full h-[450px] rounded-xl shadow-[0_0_30px_rgba(255,255,255,0.35)]"
                               ref={videoRef}
                               src="/video.mp4"
                               autoPlay
                               muted
                               playsInline
                               loop={false}
+                              onLoadedData={() => setIsLoading(false)}
+                              // onCanPlay={() => setIsLoading(false)}
                               />
                               <span className="absolute bottom-4 left-4 text-white/80 text-sm">
                               {isPlaying ? <PauseIcon /> : <PlayIcon />}
