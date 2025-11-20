@@ -1,7 +1,37 @@
 import { SparklesCore } from "../components/ui/sparkles";
 import Image from 'next/image';
 import Head from "next/head";
+import { useRef, useState, useEffect } from "react";
+const PlayIcon = () => (
+      <svg viewBox="0 0 24 24" className="h-6 w-6 fill-white">
+        <path d="M5 3v18l15-9-15-9z" />
+      </svg>
+);
+    
+const PauseIcon = () => (
+      <svg viewBox="0 0 24 24" className="h-6 w-6 fill-white">
+            <path d="M6 4h4v16H6zm8 0h4v16h-4z" />
+      </svg>
+);
 function page() {
+      const videoRef = useRef(null);
+      const [isPlaying, setIsPlaying] = useState(true);
+    
+      useEffect(() => {
+        videoRef.current?.play();
+      }, []);
+    
+      const handleToggle = () => {
+        const video = videoRef.current;
+        if (!video) return;
+        if (video.paused) {
+          video.play();
+          setIsPlaying(true);
+        } else {
+          video.pause();
+          setIsPlaying(false);
+        }
+      };
       return (
             <>
                   <Head>
@@ -125,7 +155,7 @@ function page() {
                                     </button>
                               </a>
                         </div>
-                        {/* trying to add sparkles */}
+                        {/* sparkles */}
                         <div className="absolute top-0 bottom-0 right-0 left-0 w-full h-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md -z-10">
                               <div className="w-full h-full absolute top-0 bottom-0 left-0 right-0">
 
@@ -139,12 +169,25 @@ function page() {
                                           particleColor="#FFFFFF"
                                     />
                                     {/* Radial Gradient to prevent sharp edges */}
-                                    {/* <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div> */}
                                     <div className="absolute inset-0 w-full h-full bg-black [mask-image:linear-gradient(180deg,rgba(0,0,0,0)_0%,rgba(17,17,17,0.922986284357493)_88%)]"></div>
                               </div>
                         </div>
                   </section>
                   <section className="">
+                        <div onClick={handleToggle} className="relative cursor-pointer max-w-[900px] md:mx-auto xs:mx-5 mt-24 " >
+                              <video
+                              className="rounded-xl shadow-[0_0_30px_rgba(255,255,255,0.35)]"
+                              ref={videoRef}
+                              src="/video.mp4"
+                              autoPlay
+                              muted
+                              playsInline
+                              loop={false}
+                              />
+                              <span className="absolute bottom-4 left-4 text-white/80 text-sm">
+                              {isPlaying ? <PauseIcon /> : <PlayIcon />}
+                              </span>
+                        </div>
                         <div className="max-w-lg mx-auto">
                               <h3 className="w-full text-center text-3xl mt-32 mb-5">Some Of My Work</h3>
                               <hr />
