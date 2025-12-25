@@ -1,3 +1,2 @@
 - Hi, I’m Mohammad
-- Web Developer - Frontend
-- mohammadzaidreal@gmail.com
+- Full Stack Web Developer working with MERN, React/Next.js, and Docker. Passionate about open source, I write clear, reviewer‑friendly code and build scalable solutions.
